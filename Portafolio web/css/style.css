@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+:root{
+	--color-negro:#35452f;
+	--color-texto:#35452f;
+}
+body{
+	font-family: 'montserrat', sans-serif;
+	font-size: 14px;
+	color: var(--color-texto);
+}
+header{
+    background-color: #c9cfbd;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+#intro {
+	background-color: #FFFFFF;
+	text-align: center;
+	align-items: center;
+}
+
+#intro h2{
+	padding-top: 30px;
+	font-size: 15px;
+	text-align: center;
+	}
+
+#contact .cuadrado{
+	background-color:#94976b;
+	color: #35452f;
+	font-size: 16px;
+	font-weight:bolder;
+}
+#form{
+	padding: 40px;
+}
+#services{
+	background-color: #94976b;
+	text-align: center;
+	align-items: center;
+	color:#35452f;
+}
+#services h2{
+	padding-top: 30px;
+	font-size: 15px
+}
+#about p{
+	font-size: 25px;
+}
+
+#about{
+	color:#35452f;
+	align-content: flex-end;
+	background-color: #c9cfbd;
+}
+
+footer{
+	background-color: #94976b;
+	font-size: 23px;
+	color: antiquewhite;
+	text-align: center;
+	padding: 60px;
+}
+footer .la-instagram{
+	font-size: 64px;
+	color: antiquewhite;
+}
+footer .la-facebook{
+	font-size: 64px;
+	color: antiquewhite;
+}
+footer .la-whatsapp{
+	font-size: 64px;
+	color: antiquewhite;
+}
